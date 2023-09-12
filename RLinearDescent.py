@@ -1,5 +1,7 @@
 import numpy as np
 
+#this script contains all the necessary function required for training data using linear regression. Run gradient_Descent function and it will return the w vector, b and cost_history, which 
+#models your data. You can also apply the model to the new data for prediction. 
 
 
 def compute_pderivatives(listX, listY, listW, b):
