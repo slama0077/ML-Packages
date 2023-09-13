@@ -13,8 +13,10 @@ import numpy as np
 #y_train = [0, 1]
 #features = [size, time]
 
+
+
 #the loadInputData function is for applying the trained model to a sample data. The sample data must also be .csv file and should only contain features. 
-# This function returns a numpy array of features(x_check). 
+#This function returns a numpy array of features(x_check). 
 
 
 

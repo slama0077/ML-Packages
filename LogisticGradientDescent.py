@@ -1,6 +1,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+#this script contains all the necessary function required for training data using logistic regression. Run gradient_Descent function and it will return the w vector and b, which 
+#models your data. You can also apply the model to the new data for classification. For that, you can just run apply function. 
+
+
+
 def sigmoidFunction(x, w, b):
     funcValue = 1/(1 + np.exp(-(np.dot(x, w) + b)))
     return funcValue
