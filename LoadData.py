@@ -53,6 +53,7 @@ def loadData():
     istream.close()
     x_train = np.array(x_train)
     y_train = np.array(y_train)
+    print(f"Your features are:\n{features}")
     return (x_train, y_train, features)
 
 def loadInputData():
